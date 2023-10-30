@@ -108,9 +108,19 @@ img {
   color: #fff;
   font-size: 14px;
 }
-.sidebar .link_part ul li.active{
+/* .sidebar .link_part ul li a.active{
   background-color: #f69500;
+  position: relative;
 }
+
+.sidebar .link_part ul li a.active::before{
+  content: '';
+  width: 6px;
+  height: 100%;
+  background-color: white;
+  position: absolute;
+  left: 10px;
+} */
 
 .sidebar .link_part ul li a i {
   float: left;
@@ -451,4 +461,8 @@ div.dataTables_wrapper div.dataTables_info {
 }
 select:focus{
   box-shadow: none !important;
+}
+
+.active>.page-link, .page-link.active{
+  background-color: #2e3192 !important;
 }
