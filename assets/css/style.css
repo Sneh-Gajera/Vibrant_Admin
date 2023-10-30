@@ -71,7 +71,6 @@ img {
   top: 0;
   left: 0;
   bottom: 0;
-  overflow-y: scroll;
 }
 .sidebar .close_btn {
   text-align: right;
