@@ -71,6 +71,7 @@ img {
   top: 0;
   left: 0;
   bottom: 0;
+  overflow-y: scroll;
 }
 .sidebar .close_btn {
   text-align: right;
@@ -137,8 +138,11 @@ img {
 .link_part .sub_menu {
   background-color: #575ab7;
   display: none;
-  overflow-y: scroll;
+  
 }
+
+
+
 .link_part .sub_menu li a {
   padding: 15px 50px !important;
   font-size: 13px !important;
