@@ -96,9 +96,9 @@
         </header>
         <div class="user_info">
             <ul>
-              <li><div class="mb-1"><a href="account.html"><i class="fi fi-ss-user"></i>Profile</a></div></li>
-              <li><div class="mb-1"><a href="setting.html"><i class="fi fi-rr-settings-sliders"></i>Setting</a></div></li>
-              <li><div class="mb-1"><a href="#"><i class="fi fi-bs-sign-out-alt"></i>Log-Out</a></div></li>
+                <li><div class="mb-1"><a href="account.html"><i class="fi fi-ss-user"></i>Profile</a></div></li>
+                  <li><div class="mb-1"><a href="setting.html"><i class="fi fi-rr-settings-sliders"></i>Setting</a></div></li>
+                  <li><div class="mb-1"><a href="#"><i class="fi fi-bs-sign-out-alt"></i>Log-Out</a></div></li>
             </ul>
         </div>
           <!-- header -->
@@ -110,11 +110,12 @@
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb">
                           <li class="breadcrumb-item"><a href="dashboard.html">Home</a></li>
-                          <li class="breadcrumb-item active" aria-current="page">Staff</li>
+                          <li class="breadcrumb-item active" aria-current="page">Add Staff</li>
                         </ol>
                       </nav>
+
                       <div class="add_btn">
-                        <a href="add_staff.html"><i class="fa-solid fa-plus"></i>  Add Staff</a>
+                        <a href="staff.html"><i class="fa-solid fa-eye"></i>  View All</a>
                       </div>
                 </div>
 
@@ -122,105 +123,59 @@
                   <div class="col-lg-12">
                     <div class="right_parts">
             
-                     <div class=" table-responsive text-nowarp">
-                        <table id="example" class="table table-striped text-nowarp " style="width:100%">
-                            <thead>
-                              <tr>
-                                <th>#</th>
-                                <th>image</th>
-                                <th>name</th>
-                                <th>designation</th>
-                                <th>category</th>
-                                <th>status</th>
-                                <th>action</th>
-                              </tr>
-                            </thead>
-                            <tbody>
-                              <tr>
-                                <td>1</td>
-                                <td><img src="assets/image/user/1.jpg" alt="" ></td>
-                                <td><p>princy patel</p></td>
-                                <td><p>lead teacher</p></td>
-                                <td><p>Physiotherapy</p></td>
-                                <td><span class="badge text-bg-success py-2 px-3 ">Active</span></td>
-                                <td>
-                                  <div class="dropdown">
-                                    <button type="button" class="p-0 dropdown-toggle " data-bs-toggle="dropdown">
-                                      <i class="fa-solid fa-ellipsis-vertical"></i>
-                                    </button>
-                                    <div class="dropdown-menu">
-                                        <a class="dropdown-item" href=""> Edit</a>
-                                        <a class="dropdown-item" href="" > Delete</a>
+                        <form action="">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="form-group mb-4">
+                                        <label for="" class="mb-1">image</label>
+                                        <input type="file" class="form-control" name="image" required>
                                     </div>
-                                  </div>
-                                </td>
-                              </tr>
+                                </div>
 
-                              <tr>
-                                <td>2</td>
-                                <td><img src="assets/image/user/2.jpg" alt="" ></td>
-                                <td><p>kalpesh patel</p></td>
-                                <td><p>lead teacher</p></td>
-                                <td><p>gnm nursing</p></td>
-                                <td><span class="badge text-bg-success py-2 px-3 ">Active</span></td>
-                                <td>
-                                  <div class="dropdown">
-                                    <button type="button" class="p-0 dropdown-toggle " data-bs-toggle="dropdown">
-                                      <i class="fa-solid fa-ellipsis-vertical"></i>
-                                    </button>
-                                    <div class="dropdown-menu">
-                                        <a class="dropdown-item" href=""> Edit</a>
-                                        <a class="dropdown-item" href="" > Delete</a>
+                                <div class="col-lg-6">
+                                    <div class="form-group mb-4">
+                                        <label for="" class="mb-1">name</label>
+                                        <input type="text" class="form-control" name="name" required>
                                     </div>
-                                  </div>
-                                </td>
-                              </tr>
+                                </div>
 
-                              <tr>
-                                <td>3</td>
-                                <td><img src="assets/image/user/3.jpg" alt="" ></td>
-                                <td><p>raj patel</p></td>
-                                <td><p>lead teacher</p></td>
-                                <td><p>Physiotherapy</p></td>
-                                <td><span class="badge text-bg-success py-2 px-3 ">Active</span></td>
-                                <td>
-                                  <div class="dropdown">
-                                    <button type="button" class="p-0 dropdown-toggle " data-bs-toggle="dropdown">
-                                      <i class="fa-solid fa-ellipsis-vertical"></i>
-                                    </button>
-                                    <div class="dropdown-menu">
-                                        <a class="dropdown-item" href=""> Edit</a>
-                                        <a class="dropdown-item" href="" > Delete</a>
+                                <div class="col-lg-6">
+                                    <div class="form-group mb-4">
+                                        <label for="" class="mb-1">designation</label>
+                                        <input type="text" class="form-control" name="desc" required>
                                     </div>
-                                  </div>
-                                </td>
-                              </tr>
+                                </div>
 
-
-                              <tr>
-                                <td>4</td>
-                                <td><img src="assets/image/user/4.jpg" alt="" ></td>
-                                <td><p>nirali patel</p></td>
-                                <td><p>lead teacher</p></td>
-                                <td><p>anm nursing</p></td>
-                                <td><span class="badge text-bg-success py-2 px-3 ">Active</span></td>
-                                <td>
-                                  <div class="dropdown">
-                                    <button type="button" class="p-0 dropdown-toggle " data-bs-toggle="dropdown">
-                                      <i class="fa-solid fa-ellipsis-vertical"></i>
-                                    </button>
-                                    <div class="dropdown-menu">
-                                        <a class="dropdown-item" href=""> Edit</a>
-                                        <a class="dropdown-item" href="" > Delete</a>
+                                <div class="col-lg-6">
+                                    <div class="form-group mb-4">
+                                        <label for="" class="mb-1">category</label>
+                                        <select name="status" id="" class="form-control" required>
+                                            <option value="" selected>Select Category</option>
+                                            <option value="1">Physiotherapy</option>
+                                            <option value="2">ANM Nursing</option>
+                                            <option value="2">GNM Nursing</option>
+                                        </select>
                                     </div>
-                                  </div>
-                                </td>
-                              </tr>
+                                </div>
 
-                              
-                            </tbody>
-                        </table>
-                     </div>
+                                <div class="col-lg-6">
+                                    <div class="form-group mb-4">
+                                        <label for="" class="mb-1">status</label>
+                                        <select name="status" id="" class="form-control" required>
+                                            <option value="" selected>Select Status</option>
+                                            <option value="1">Active</option>
+                                            <option value="2">Inacctive</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="btn_group">
+                                    <button class="btn btn-success">Submit</button>
+                                    <button class="btn btn-secondary">Cancel</button>
+                                  </div>
+                            </div>
+                        </form>
+                     
                     </div>
                   </div>
                 </div>
