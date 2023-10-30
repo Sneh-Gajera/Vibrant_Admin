@@ -137,6 +137,7 @@ img {
 .link_part .sub_menu {
   background-color: #575ab7;
   display: none;
+  overflow-y: scroll;
 }
 .link_part .sub_menu li a {
   padding: 15px 50px !important;
